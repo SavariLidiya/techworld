@@ -1,0 +1,90 @@
+/* 🌟 Light Theme for Entire Page */
+body {
+    background-color: #f8f9fa; /* Light background */
+    color: #333; /* Dark text for readability */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center Content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 🎩 Professional Light Header */
+header {
+    background: #ffffff; /* Light header */
+    color: #333; /* Dark text */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px; /* Header height */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* 🖼️ Profile Picture Styling (Left Side) */
+.profile-pic {
+    height: 100%; /* Stretches image to fit header height */
+    width: auto; /* Keeps aspect ratio */
+    object-fit: cover; /* Ensures it fills header properly */
+    border-radius: 5px; /* Slight rounding for a professional look */
+}
+
+/* 📌 Header Text (Right Side) */
+.header-text {
+    text-align: right; /* Align text to the right */
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* 📌 Hobbies & Education Section */
+.hobbies, .education, .contact {
+    background-color: #ffffff; /* White background for sections */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔲 Hobby Items */
+.hobby-item {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1; /* Light box for each hobby */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* 🖼️ Hobby Images */
+.hobby-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+/* 📌 Contact Section */
+.contact {
+    text-align: center;
+}
+.contact p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* 📌 Footer */
+footer {
+    text-align: center;
+    background: #eaeaea; /* Light footer */
+    color: #555;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
